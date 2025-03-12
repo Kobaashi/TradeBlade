@@ -46,8 +46,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="ds:border-l-[1px] ds:border-[#4e515d] ds:h-[360px]
-        sm:border-t-[1px] sm:border-[#4e515d] sm:-ml-[30px] sm:mt-[100px]">
+        <div className="border-l-[1px] border-[#4e515d] ds:h-[360px] ds:mt-[28px] sm:-ml-[30px] sm:mt-[100px]">
           <div className="ds:mr-[164px] ds:-ml-[39px] sm:mt-[78px]
           sm:ml-[30px]">
             <div className="ds:flex ds:items-center ds:ml-[200px] ds:-mt-[118px]
