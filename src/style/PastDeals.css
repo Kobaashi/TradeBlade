@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 1440px) {
+  @layer utilities {
+    .scrollbar {
+      scrollbar-width: thin;
+      scrollbar-color: #6073A1 transparent;
+    }
+
+    .scroller {
+      width: 1440px;
+      height: 500px;
+      scrollbar-width: thin;
+      scrollbar-color: #6073A1 transparent;
+    }
+
+    .scrollbar:active {
+      scrollbar-width: thin;
+      scrollbar-color: #126057 transparent;
+    }
+
+    overflow-x-auto {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+@media (min-width: 375px) {
+  @layer utilities {
+    .scrollbar {
+      scrollbar-width: thin;
+      scrollbar-color: #6073A1 transparent;
+    }
+
+    .scroller {
+      width: 1440px;
+      height: 500px;
+      margin-top: 10px;
+      scrollbar-width: thin;
+      scrollbar-color: #6073A1 transparent;
+    }
+
+    .scrollbar:active {
+      scrollbar-width: thin;
+      scrollbar-color: #126057 transparent;
+    }
+
+    overflow-x-auto {
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
